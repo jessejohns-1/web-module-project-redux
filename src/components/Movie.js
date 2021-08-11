@@ -14,6 +14,7 @@ const Movie = (props) => {
 
     const handleDelete = () => {
         props.deleteMovie(parseInt(id))
+        console.log("OTHERID",id)
         push("/movies")
     };
 
